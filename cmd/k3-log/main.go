@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "github.com/stones-hub/k3-log/pkg/k3/log"
 
 func main() {
-	fmt.Println("aaaa")
+	log.AsyncDo()
 }
